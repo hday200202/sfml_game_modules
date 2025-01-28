@@ -52,6 +52,7 @@ anim.setStyle(sfmod::Style::PingPong);
 double deltaTime = 0.016; // Example delta time
 anim.update(deltaTime);
 sf::Texture currentFrame = anim.getCurrentFrame();
+```
 
 ### AnimationModule
 ```cpp
@@ -63,8 +64,9 @@ animModule.setCurrentAnimation("Walk");
 
 double deltaTime = 0.016; // Example delta time
 sf::Texture currentFrame = animModule.update(deltaTime);
+```
 
-### AnimationModule
+### CollisionModule
 ```cpp
 sfmod::CollisionModule collision;
 
@@ -79,6 +81,7 @@ sf::Vector2f offset = collision.getCollisionOffset(entityRect, collisionRects);
 if (collision.bottom()) {
     std::cout << "Collision at the bottom!" << std::endl;
 }
+```
 
 # License
 This library is open-source and available under the MIT License. Feel free to modify and use it in your projects.
