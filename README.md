@@ -79,3 +79,11 @@ sf::Vector2f offset = collision.getCollisionOffset(entityRect, collisionRects);
 if (collision.bottom()) {
     std::cout << "Collision at the bottom!" << std::endl;
 }
+
+# License
+This library is open-source and available under the MIT License. Feel free to modify and use it in your projects.
+
+# Author
+Harrison Day
+01/24/25
+This library was designed to modularize essential components and enhance SFML project development.
